@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	grid-template-rows:200px 200px  ;
+	grid-template-columns:200px 200px;
+	gap:1px;
+	
+}
+.item-1,.item-2,.item-3,.item-4{
+	
+	background-color:green;
+/* 	gap:1px;		 */
+}
